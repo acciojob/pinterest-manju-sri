@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+.hero{
+	display: flex;
+	height: 500px;
+	width: 650px;
+	align-items: center;
+	justify-content: space-around;
+}
+#view>img{
+	height:300px;
+	width: 400px;
+	object-fit: cover;
+}
+#content-section{
+	text-align: center;
+}
+#content-section>button{
+ border-radius: 2px;
+ color: white;
+ background-color: orangered;
+ padding: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
